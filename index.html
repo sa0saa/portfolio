@@ -68,6 +68,15 @@ border-top: 2px solid #C4C2C1;
 display: flex;
 }
 </style>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+<script>
+  $(function() {
+  // 外部リンクを必ず新しいタブで開く
+  // （rel=noopener を指定することにより、必ず別プロセスで開く）
+  $('a[href^=http]').attr('target', '_blank').attr('rel', 'noopener');
+});  
+ </script>  
 </head>
 
 <body>
@@ -119,7 +128,7 @@ display: flex;
     <div class="box">
         <h3><a href="portfolio_01/index.html" target="_blank">職業訓練個人制作（題材：自由）</a></h3>
             <p>レスポンシブ対応済み</p>
-        <p><a href="portfolio_01/index.html"><img src="img/portfolio_01link.png" width="2834" height="1464" alt=""/></a></p>
+        <p><a href="https://sa0saa.github.io/portfolio02/"><img src="img/portfolio_01link.png" width="2834" height="1464" alt=""/></a></p>
         
         <ul>
             <li>カテゴリー：子供専門の写真館</li>
